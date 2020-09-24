@@ -1,4 +1,4 @@
-const life = 100; // constant stays the same you can't make const=1000
+ // constant stays the same you can't make const=1000
 // var lets you change the value but const stays the same
 
 // instead just use let [name]
@@ -34,3 +34,15 @@ variables are boxes where you can add different types of data.
  WHat is null?
  variable has non value, it is not commonly used. has a value of nothing?
 */
+
+const name = "dev ed";
+
+function logger() {
+    console.log("party time");
+    console.log("party time");
+    console.log("party time");
+    console.log("party time");
+    
+}
+
+logger();
